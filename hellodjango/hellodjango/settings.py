@@ -16,7 +16,6 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-import dj_database_url
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.sqlite3',
